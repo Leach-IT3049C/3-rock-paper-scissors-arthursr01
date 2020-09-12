@@ -74,7 +74,7 @@ class RockPaperScissors {
       this.score.cpu++;
       
   }
-  this.gameHistoryLog.push(username.value + ' selected ' + userSelection + ', CPU selected ' + cpuSelection + ': ' + username.value + ' ' + outcome);
+  this.gameHistoryLog.push(username.value + ' selected ' + userSelection + ', CPU selected ' + cpuSelection + ': ' + username.value + ' ' + outcome + 's');
   }
 
 }
