@@ -34,28 +34,28 @@ class RockPaperScissors {
    */
   determineWinner(userSelection, cpuSelection){
     
-    let final = "none";
+    let outcome = "none";
     if (userSelection === cpuSelection)
     {
-      final = "tie";
+      outcome = "tie";
     }
     else if (userSelection === "rock" && cpuSelection === "scissors")
     {
-      final = "win";
+      outcome = "win";
     }
     else if (userSelection === "paper" && cpuSelection === "rock")
     {
-      final = "win";
+      outcome = "win";
     }
     else if (userSelection === "scissors" && cpuSelection === "paper")
     {
-      final = "win";
+      outcome = "win";
     }
     else 
     {
-      final = "lose";
+      outcome = "lose";
     }
-    return final;
+    return outcome;
   }
 
   /**
