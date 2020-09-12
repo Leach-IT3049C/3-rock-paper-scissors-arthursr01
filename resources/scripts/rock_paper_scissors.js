@@ -64,7 +64,7 @@ class RockPaperScissors {
    */
   play(userSelection){
     let cpuSelection = this.generateCPUResponse();
-    let outcome = this.determineWinner();
+    let outcome = this.determineWinner(userSelection, cpuSelection);
     if (outcome === "win")
     {
       this.score.user++;
