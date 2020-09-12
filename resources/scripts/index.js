@@ -21,8 +21,7 @@ scoreParagraph.innerText = userName.value + ':' + game.score.user + ' v CPU:' + 
 
 // updateGameHistoryUI
 function updateGameHistoryUI(){
-  gameHistoryParagraph.innerText = "";
-gameHistoryParagraph.innerText = game.gameHistoryLog;
+gameHistoryParagraph.innerHTML = game.gameHistoryLog;
 }
 
 // start-game-button EventListener
